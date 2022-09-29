@@ -1,0 +1,106 @@
+
+:root{
+
+    --green: #0F4005;
+    --white: #fff;
+    --lightgreen: #00b894;
+}
+
+
+body{
+
+    font-family: 'Quicksand', sans-serif;
+
+}
+.ml-auto{
+
+    margin-left: auto;
+    
+    
+
+}
+
+.pad{
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+
+.navbar {
+
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+
+    color:  var(--white);
+
+}
+
+.navbar-brand{
+
+    color: var(--white);
+
+}
+
+
+.bg{
+
+    background-color: var(--green);
+
+}
+
+.header {
+
+    width: 100%;
+    background-color: #0F4005;
+
+
+}
+
+.main-header{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 100%;
+    background: url('../img/amazon\ river.jpg');
+    background-size: cover;
+    min-height: 600px;
+}
+
+.background-overlay{
+
+    background: rgba(4, 31, 3, 0.7);
+    min-height: 600px;
+
+
+}
+
+.minero{
+
+    border-radius:  20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.rounded{
+
+    border-radius: 20px;
+
+}
+
+
+
+.title {
+
+    color: var(--lightgreen);
+
+}
+
+footer{
+
+    background-color: var(--green);
+
+}
