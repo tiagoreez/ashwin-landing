@@ -82,7 +82,7 @@ body{
 
     border-radius:  20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
+  
 }
 
 .rounded{
@@ -102,5 +102,53 @@ body{
 footer{
 
     background-color: var(--green);
+
+}
+
+.card{
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: 0.2s;
+    min-height: 100px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.card:hover{
+
+    transform: scale(1.03);
+
+}
+
+.nav-item:hover{
+
+    color: var(--lightgreen);
+
+}
+
+ul {
+
+    list-style: none; /* Remove default bullets */
+    text-align: justify;    
+
+}
+  
+.dot::before {
+    content: "\2022";  
+    color: var(--lightgreen); 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
+
+#nav-list{
+
+    display: n;
+
+}
+
+.space{
+
+    margin-left: px;
 
 }
